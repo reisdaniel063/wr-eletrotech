@@ -1,0 +1,56 @@
+/* src/components/Catalogo.css */
+
+.catalogo {
+  background-color: #e8f0fe;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.catalogo h2 {
+  font-size: 2rem;
+  color: #0056b3;
+  margin-bottom: 2.5rem;
+}
+
+.catalogo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.catalogo-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.catalogo-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.catalogo-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.catalogo-content {
+  padding: 1.5rem;
+}
+
+.catalogo-content h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.catalogo-content p {
+  font-size: 0.95rem;
+  color: #555;
+}

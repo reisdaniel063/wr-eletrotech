@@ -1,0 +1,52 @@
+/* src/components/Diferenciais.css */
+
+.diferenciais {
+  background-color: #f4f4f4;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.diferenciais h2 {
+  font-size: 2rem;
+  color: #0056b3;
+  margin-bottom: 2rem;
+}
+
+.diferenciais-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.diferencial-item {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.diferencial-item i {
+  font-size: 2.5rem;
+  color: #0056b3;
+  margin-bottom: 1rem;
+}
+
+.diferencial-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.diferencial-item p {
+  font-size: 0.95rem;
+  color: #444;
+}
+.descricao {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #444;
+  text-align: center;
+}
