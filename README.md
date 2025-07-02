@@ -15,7 +15,8 @@ Site institucional do eletricista WR EletroTech, oferecendo serviços elétricos
 
 ## 📷 Capturas de tela
 
-> *(Insira aqui prints do site rodando localmente ou online)*
+![Print Desktop do site](public/assets/print1Desktop.png)
+![Print Desktop do site](public/assets/print2Desktop.png)
 
 ---
 
