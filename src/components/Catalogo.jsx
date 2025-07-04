@@ -5,7 +5,7 @@ function Catalogo() {
   const servicosExtras = [
     {
       imagem: "/assets/cards/cardRetificadora.webp",
-      titulo: "Manutenção de Máquina Retificadora",
+      titulo: "Manutenção em Retificador",
       descricao: "Serviço técnico especializado em manutenção e ajuste de máquinas retificadoras industriais."
     },
     {
